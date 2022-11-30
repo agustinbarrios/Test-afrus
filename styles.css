@@ -1,0 +1,171 @@
+html {
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(2, 2, 2);
+    margin-top: 0;
+    text-align: left;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 900;
+    color: rgb(2, 2, 2);
+    margin-top: 0;
+    text-align: left;
+}
+
+h4 {
+    font-size: 13px;
+    font-weight: 300;
+    color: rgb(2, 2, 2);
+    margin-top: 0;
+    text-align: center;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(2, 2, 2);
+    margin-top: 10;
+    text-align: left;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #666;
+    margin: 10px 0;
+    text-align: left;
+}
+
+ul {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(2, 2, 2);
+    margin-top: 0;
+    text-align: left;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 200px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+
+.card img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+
+.characterButton {
+    width: 100%;
+    background-color: #d42020;
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+.form-card {
+    margin-left: 20px;
+}
+
+.card-info {
+    padding: 20px;
+}
+
+#characterInformation {
+    text-align: center;
+    margin-right: 20px;
+}
+
+#characterImage {
+    width: 350px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#characterImages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+#characterImages img {
+    width: 80px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .form-card {
+        margin-left: 0;
+    }
+
+    #characterInformation {
+        margin-right: 0;
+    }
+}
+
+.alert {
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.alert-success {
+    background-color: #34ce57;
+    color: #fff;
+}
+
+.alert-warning {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+.alert-danger {
+    background-color: #e84118;
+    color: #fff;
+}
